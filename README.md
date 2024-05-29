@@ -22,16 +22,16 @@ This project simulates an M/M/m/b queue, a queueing model where:
 ### Compilation
 To compile the program, use the following command:
 
-'''
+```
 gcc -o queue_simulation MMmb_queue.c -lm
-'''
+```
 
 ### Usage
 Run the simulation with:
 
-'''
+```
 ./queue_simulation
-'''
+```
 
 ### Parameters
 - `lambda`: Arrival rate
